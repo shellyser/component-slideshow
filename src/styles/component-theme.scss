@@ -1,0 +1,12 @@
+@import "~nytpi-sass-utils/size-class";
+@import "~nytpi-sass-utils/font-size";
+@import "~nytpi-sass-utils/media-vw";
+
+// Use pspx ratio of 1 since InDesign files are @1x
+
+:local {
+	.SampleComponent {
+		composes: SampleComponent from "./component.scss";
+		background: yellow;
+	}
+}

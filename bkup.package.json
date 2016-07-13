@@ -1,0 +1,38 @@
+{
+  "name": "component-demo",
+  "version": "1.0.0",
+  "description": "Start point for a NYTPI component",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "component-builder",
+    "preview": "styleguidist-bootstrap",
+    "lint": "eslint ./ --ext .js --ext .jsx",
+    "lint-css": "stylelint ./**/**/*.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nytpi/component-demo.git"
+  },
+  "keywords": [
+    "component",
+    "component-demo",
+    "react",
+    "webpack"
+  ],
+  "author": "T Brand Studio",
+  "contributors": [
+    "Joseph Kohlmann <joseph.kohlmann@nytimes.com>",
+    "Haldane Henry <haldane.henry@nytimes.com>"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nytpi/component-demo/issues"
+  },
+  "homepage": "https://github.com/nytpi/component-demo#readme",  
+  "devDependencies": {
+    "bourbon": "^4.2.6",
+    "nytpi-sass-utils": "github:nytpi/nytpi-sass-utils#development",
+    "uuid": "^2.0.2",
+    "component-builder": "github:nytpi/component-builder#react-webpack-env"
+  }
+}

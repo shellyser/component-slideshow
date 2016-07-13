@@ -1,0 +1,17 @@
+@import "~nytpi-sass-utils/size-class";
+@import "~nytpi-sass-utils/font-size";
+@import "~nytpi-sass-utils/media-vw";
+
+:local {
+	.SampleComponent {
+		@include size-class(regular) {
+			@include font-size(48, vw);
+			color: purple;
+		}
+
+		@include size-class(compact) {
+			@include font-size(36);
+			color: orange;
+		}
+	}
+}
